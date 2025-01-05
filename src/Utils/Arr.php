@@ -23,8 +23,6 @@ final class Arr {
         return array_filter($array, $callback);
     }
 
-    public static function 
-
     public static function flatten(array $array): array{
         $result = [];
         foreach( $array as $value ){
