@@ -34,4 +34,9 @@ final class Arr {
         }
         return $result;
     }
+
+    public static function merge(array &$array, array ...$arrays): array{
+       $result = static::flatten($arrays);
+       return array_merge( $array, $result );
+    }
 }
