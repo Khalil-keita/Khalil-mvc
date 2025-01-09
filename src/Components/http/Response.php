@@ -1,6 +1,12 @@
 <?php
 namespace Khalil\Components\Http;
 
-class Response {
-    
+use Khalil\Components\Http\Interface\ResponseInterface;
+
+class Response implements ResponseInterface
+{
+    public function send(): string
+    {
+        return "";
+    }
 }
