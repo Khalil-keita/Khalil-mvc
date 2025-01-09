@@ -1,0 +1,19 @@
+{
+    "name": "khalil/khalil-mvc",
+    "description": "Mini frameword php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khalil\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khalil-keita",
+            "email": "keitakalil200@icloud.com"
+        }
+    ],
+    "require": {}
+}
